@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header img{
+    height: 60vh;
+    margin: 0;
+
+}
+.header{
+    position: relative;
+    
+    
+}
+.bg-text{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+  padding: 10px;
+}
+.bg-text span{
+    color: orangered;
+}
+.bg-text h2{
+    color: white;
+    font-size: 45px;
+    
+}
+.bg-text h4{
+    color: white;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.join{
+    background-color: orangered;
+    color: white;
+    padding: 15px 80px;
+    margin-left: 29% ;
+    margin-top: 40px;
+}
+.orange{
+    text-align: center;
+}

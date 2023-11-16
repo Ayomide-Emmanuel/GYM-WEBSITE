@@ -1,0 +1,98 @@
+/* body{
+    border: 1px solid black;
+} */
+.flex-wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    /* gap: 40px; */
+    width: 100%;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+}
+.flex-wrap button{
+    background-color: white;
+    color: orangered;
+    font-size: 15px;
+    padding: 10px 100px 10px 100px ;
+    margin-top: 80px;
+    /* padding-bottom: 10px; */
+    margin-bottom: 30px;
+    
+}
+.select{
+    line-height: 40px;
+}
+#month{
+color: rgb(129, 117, 117);
+
+}
+p{
+    font-family: sans-serif;
+}
+.select h4{
+    font-size: 35px;
+    font-family: Helvetica;
+}
+hr{
+    width: 40%;
+    margin-left: 90px;
+}
+.top{
+    text-align: center;
+}
+.top h3{
+    color: #000;
+    margin-bottom: 10px;
+}
+.top p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first{
+    margin-left: 90px;
+    background-color: #000;
+    padding-bottom: 10px;
+    width: 70%;
+    height: 40px;
+}
+.first .includes{
+    background-color: purple;
+    padding-top: 5px;
+    line-height: 30px;
+}
+.includes h3{
+    margin-bottom: 30px;
+}
+.second{
+    /* margin-left: 50px; */
+    background-color: #000;
+    padding-bottom: 10px;
+    width: 70%;
+    margin-left: 30px;
+    height: 40px;
+
+}
+.second .includes{
+    background-color: purple;
+    padding-top: 5px;
+}
+.third{
+    margin-left: 50px;
+    background-color: #000;
+    width: 70%;
+    padding-bottom: 10px;
+    height: 40px;
+}
+.third .includes{
+    background-color: purple;
+    padding-top: 5px;
+}
+.first .select{
+    background-color: #000;
+}
+.second .select{
+    background-color: #000;
+}
+.third .select{
+    background-color: #000;
+}

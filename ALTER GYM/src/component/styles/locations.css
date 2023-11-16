@@ -1,0 +1,20 @@
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.images img{
+    height: 35vh;
+    width: 90%;
+    padding: 10px;
+}
+.locations{
+    background-color: black;
+    padding-top: 20px;
+} 
+h3{
+    color: white;
+   font-family: sans-serif;
+   text-align: center;
+   font-size: 30px;
+   margin-top: 60px;
+}
